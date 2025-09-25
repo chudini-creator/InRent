@@ -1,0 +1,42 @@
+.dashboard{
+    margin-left: 2.5%;
+    margin-top: 90px;
+    width: 95%;
+    min-height: 120vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: white;
+    box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.3);
+}
+.dashboard .dashboard_cards{
+    width: 90%;
+    margin: 20px auto;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 2rem 4rem;
+    justify-content: center;
+}
+.dashboard .dashboard_tables{
+   
+    width: 90%;
+    margin: 0 auto;
+    justify-content: center;
+}
+.dashboard .dashboard_data{
+    width: 90%;
+    display: flex;
+    justify-content: flex-start;
+    align-items: top;
+    margin: 10px 5% 20px auto;
+    gap: 2rem 4rem;
+}
+.dashboard .dashboard_data .dashboard_tables{ 
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
+    gap: 2rem 4rem;
+    width: 40%;
+}
+.dashboard .dashboard_data .dashboard_app{
+    width: 60%;
+}

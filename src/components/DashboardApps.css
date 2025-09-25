@@ -1,0 +1,26 @@
+.dashboard_apps{
+    background-color: white;
+    border: 1px solid var(--primary);
+    border-radius: 10px;
+    padding: 10px;
+    width: 100%;
+    height: 100%;
+    box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.25);
+}
+.dashboard_apps .dashboard_apps_row, .dashboard_apps .dashboard_apps_header{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 30px;
+    gap: 1rem;
+    width: 90%;
+    margin-top: 20px;
+    padding: 10px;
+    text-align: start;
+}
+.dashboard_apps .dashboard_apps_header{
+    font-weight: 600;
+    font-size: 1.1rem;
+    color: var(--primary);
+}
+.dashboard_apps .dashboard_apps_row .dashboard_apps_address{
+    color: var(--primary);
+}
