@@ -1,5 +1,6 @@
 :root{
     --primary: #213261;
+    --secondary: #2132dd;
 }
 *{
     box-sizing: border-box;
