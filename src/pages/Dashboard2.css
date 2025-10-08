@@ -57,3 +57,11 @@
     margin-left: 5%;
     opacity: 1;
 }
+.Dashboard2 .add_info{
+    position: absolute;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    z-index: 9999;
+    top: 0;
+}

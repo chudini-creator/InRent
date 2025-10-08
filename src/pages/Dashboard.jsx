@@ -3,6 +3,7 @@ import DashboardCard from "../components/DashboardCard";
 import DashboardTables from "../components/DashboardTables";
 import DashboardApps from "../components/DashboardApps";
 import Header from "../components/Header";
+import LoginForms from "../components/LoginForms/LoginForms";
 function Dashboard() {
 
     const cards = [

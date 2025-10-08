@@ -1,6 +1,7 @@
 import DashboardCard from "../components/DashboardCard";
 import DashboardTables from "../components/DashboardTables";
 import Header from "../components/Header";
+import LoginForms from "../components/LoginForms/LoginForms";
 import "./Dashboard2.css"
 function Dashboard2({name}) {
     name = "Admin";
@@ -65,6 +66,9 @@ function Dashboard2({name}) {
     return (
         <div className="Dashboard2">
             <Header />
+            <div className="add_info">
+                <LoginForms title="Dodatkowe informacje" button="Zatwierdź" />
+            </div>
             <div className="dash_upper">
                 <div className="dash_left">
                     <h1>Dzień dobry, {name}</h1>
